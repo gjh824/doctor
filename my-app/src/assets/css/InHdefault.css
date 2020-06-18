@@ -1,0 +1,155 @@
+/* 上面 两个 导航 */
+.HeaNav{
+    width: 140px;
+    height: 42px;
+    background:linear-gradient(to right,#2dc4de,#16dcb9);
+    border-radius: 50px 0 50px 0;
+    text-align: center;
+    font-size: 17px;
+    line-height: 42px;
+    font-weight: normal;
+    color: white;
+    margin-left: 120px;
+    margin-top: 47px;
+    display: inline-block;
+}
+.HeaNav a{
+    color: #ffffff;
+}
+.HeaNavTwo{
+    background: #fff;
+    margin-left: 20px;
+}
+.HeaNavTwo a{
+    color: black;
+}
+/* 中间大框 */
+.elecen{
+    /* width: 89%; */
+    width: 85%;
+    height: 900px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-left: 5%;
+    margin-bottom: 30px;
+    padding:0 30px;
+    /* background: white; */
+    position: relative;
+}
+.change{
+    margin-top: 50px;
+    /* margin-top: 10px;
+    width: 100%;
+    position: absolute;
+    left: 100px;
+    bottom: 70px; */
+    
+}
+/* 头 inp 框 */
+.g_iH_form{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.g_inp{
+    display: inline-block;
+}
+.g_ih_inp{
+    margin: 0 10px;
+}
+.g_inp input,select{
+    border-style: none;
+    width: 140px;
+    height: 30px;
+    border: 1px solid #cccccd;
+    border-radius: 25px;
+    padding-left: 20px;
+    outline:none;
+    color: #757575;
+}
+.g_inp_cen{
+    margin: 0 10px;
+    position: relative;
+}
+.fa-sort-down{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    display: none;
+}
+.g_inp span{
+    font-size: 20px;
+}
+.g_inp_sp{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #16dcb8;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin-left: 10px;
+}
+/* 中心 表格 */
+.g_hs_tab{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+.g_tab_tou{
+    color: #999999;
+    font-size: 12px;
+}
+.g_hs_tab tr{
+    text-align: center;
+}
+.g_tr{
+    border-bottom: 1px solid #dddddd;
+    height: 65px;
+    line-height: 65px;
+    font-size: 14px;
+    color: #333333;
+}
+.g_tab_a{
+    /* background: #16dcb8; */
+    color: #16dcb8;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 3px;
+}
+.fa-pencil{
+    margin-right: 15px;
+}
+.fa-pencil:hover{
+    color: #999999;
+}
+.fa-close:hover{
+    color: #999999;
+}
+/* .g_tab_a:hover{
+    background: #fff;
+    border:1px solid #16dcb8;
+    color: #16dcb8;
+    padding: 2px;
+} */
+/* 批量删除 */
+.g_dele{
+    /* width: 141px; */
+    text-align: center;
+    width: 11%;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+}
+.g_dele a{
+    border-radius: 25px;
+    width: 100%;
+    display: inline-block;
+    color: #fff;
+    background: #f96464;
+}
+.g_dele a:hover{
+    color: #f96464;
+    background: #fff;
+}

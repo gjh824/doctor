@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.div1{
+			width: 1200px;
+			height: 158px;
+			
+			border: 1px solid #f00;
+			margin: 20px auto;
+		}
+		.div2{
+			width: 600px;
+			height: 158px;
+			float: left;
+			/*background: #ccc;*/
+			overflow: hidden;
+			position: relative;
+			color: #f00;
+			line-height: 130px;
+		}
+		
+		.div4{
+			/*width: 364px;*/
+			height: 100px;
+			background: #f00;
+			float: left;
+			position: absolute;
+			top: 29px;
+			left: 600px;
+			transition:1s;
+		}
+		.div1:hover .div4{
+			width: 364px;
+			transform:translate(-364px,0px)
+			
+
+		}
+		.div1:hover p{
+			transform:translate(-364px,0px)
+			
+
+		}
+		.div1:hover {
+			background: #ccc;
+		}
+		p{
+			float: right;
+			transition:1s;
+		}
+		.div3{
+			line-height: 158px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="div1">
+		
+		<div class="div2">
+
+			<div class="div4">
+				<img src="images/1478778348501 330×140.png">
+			</div>
+			<p>sasdgfgh</p>
+		</div>
+		<div class="div3">sdasdadadadadadadada
+		</div>
+	</div>
+	<!-- <div class="div1">
+		
+		<div class="div2">
+
+			<div class="div4">
+				<img src="images/1478778348501 330×140.png">
+			</div>
+			<p>sasdgfgh</p>
+		</div>
+		<div class="div3">sdasdadadadadadadada
+		</div>
+	</div> -->
+</body>
+</html>
